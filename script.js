@@ -1,12 +1,20 @@
-var moon = document.getElementById("moon");
-moon.onclick = function clickButton() {
-    document.body.classList.toggle("dark-theme");
-    if (document.body.classList.contains("dark-theme")){
-     moon.src = "bootstrap 5/img/moon.svg" ;
-    }else {
-       moon.src= "bootstrap 5/img/sun.svg";
+let toggle = document.getElementById("toggleDark");
+let body = document.querySelector("body");
+let nav1 = document.getElementById("navbar1");
+toggle.addEventListener('click',function(){
+    this.classList.toggle("bi-moon");
+    if(this.classList.toggle("bi-brightness-high")){
+        body.style.background = "white";
+        body.style.color = "black";
+        nav1.style.color = "black";
+        body.style.transition = "2s";
+    }else{
+        body.style.background ="black";
+        body.style.color = "white";
+        nav1.style.color = "white";
+        body.style.transition = "2s";
     }
-}
+})
 
 
  // map

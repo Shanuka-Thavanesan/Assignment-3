@@ -124,7 +124,10 @@ color: rgb(124, 180, 133);
 
 /* card */
 .productbutton{
-    display: inline;
+    display: flex;
+    justify-content: center;
+    padding: 10px 20px;
+    
   
 }
 .line::before{
@@ -151,6 +154,7 @@ margin-top: 2.3%;
     }
 .product{
     margin-bottom: 20px;
+   
 }
 .product h1{
     text-align: center;
@@ -161,20 +165,20 @@ margin-top: 2.3%;
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(5rem,1fr) );
     margin-left: 15%;
-    margin-right: 15%;
+    margin-right: 5%;
     padding-top: 50px;
 }
-.product .box-container .box{
+/* .product .box-container .box{
     background: #FFFFFF;
     border-radius: 5rem;
     box-shadow: rgb(12, 12, 11);
     outline:#ffffff ;
     outline-offset: -1rem;
-}
-.product .box-container .box:hover{
+} */
+/* .product .box-container .box:hover{
     outline:#ffffff ;
     outline-offset: -1rem;
-}
+} */
 .product .box-container .box img{
     margin: 1rem 0;
     height: 12rem;
@@ -328,22 +332,22 @@ p{
     display: flex;
     align-items: center;
     gap: 0.5rem;
-    color: rgb(0, 0, 0);
+    /* color: rgb(0, 0, 0); */
     font-weight: 500;
     text-decoration: none;
   }
   .footer-logo i {
-    color: rgb(3, 42, 3);
+    /* color: rgb(3, 42, 3); */
     font-size: 1.2rem;
     font-weight: 300;
   }
-  .footer-logo:hover {
+  /* .footer-logo:hover {
     color: rgb(1, 49, 5);
-  }
+  } */
   .footer-description {
     font-size: 30px;
     font-weight: 500;
-    color: black;
+    /* color: black; */
     margin-bottom: 50px;
   }
   .footer-form {
@@ -357,7 +361,7 @@ p{
   }
   .footer-form .btn {
     padding: 0.8rem;
-    background-color: rgb(2, 39, 2);
+    background-color: rgb(60, 112, 60);
     color: #FFFFFF;
   }
   .footer-address {
@@ -365,7 +369,7 @@ p{
     gap: 0.5rem;
   }
   .footer-tel {
-    color: black;
+    /* color: black; */
     margin-bottom: 100px;
     transition: 0.3s;
   }
