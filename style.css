@@ -14,6 +14,10 @@
 
 
 }
+.navbar{
+   margin-left: 280px;
+   
+}
 #position{
     position: relative;
 }
@@ -47,12 +51,10 @@
 }
 
 
-.homeimg{
-    /* height: 90%;
+/* .homeimg{
+    height: 90%;
     width: 90%;
-     */
-
-}
+} */
 
 .carousel2{
     display: flex;
@@ -88,7 +90,7 @@
 
 
 /* section2 */
-.section2{
+.about{
     display:flex;
     margin-left: 8%;
     /* margin-top: 10%; */
