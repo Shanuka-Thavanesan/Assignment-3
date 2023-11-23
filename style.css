@@ -15,8 +15,8 @@
 
 }
 .navbar{
-   margin-left: 280px;
-   
+   margin-left: 25vh;
+
 }
 #position{
     position: relative;
@@ -411,9 +411,11 @@ p{
         padding: 207px !important;
     }
 } */
-    
-
 /* end responsive */
+
+
+
+
 
 
 
